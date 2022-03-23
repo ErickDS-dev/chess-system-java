@@ -1,12 +1,12 @@
 package application;
 
-import chess.ChessMath;
+import chess.ChessMatch;
 
 public class Program {
 
     public static void main(String[] args) {
-        ChessMath chessMath = new ChessMath();
-        UI.printBoard(chessMath.getPieces());
+        ChessMatch chessMatch = new ChessMatch();
+        UI.printBoard(chessMatch.getPieces());
 
     }
 
